@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: cursive;
@@ -12,12 +15,11 @@ h2 {
   margin: 0;
   float: right;
   clear: both;
-  border: 3px solid black;
+  border: 2px solid black;
   border-style: none none solid solid;
 }
 p {
-  padding: 30px 10px;
-  font-size: 110%;
+  padding: 30px 5px 0 5px;
 }
 
 .chick{
@@ -36,27 +38,22 @@ p {
 
 .sec-1 {
   background-color: #D3D3D3;
-  margin: 15px;
+  border: 2px solid black;
 }
 
 .sec-2 {
   background-color: #D3D3D3;
-  margin: 15px;
+  border: 2px solid black;
 }
 
 .sec-3 {
   background-color: #D3D3D3;
-  margin: 15px;
-}
-
-.row{
-  margin: 20px 10px;
+  border: 2px solid black;
 }
 
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 3px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -68,7 +65,8 @@ p {
     width: 25%;
   }
   .col-lg-4 {
-    width: 30%;
+    width: 32.3%;
+    margin: 5px;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -96,10 +94,10 @@ p {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 768px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 3px solid black;
+    margin: 5px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -117,7 +115,7 @@ p {
     width: 45.66%;
   }
   .col-md-6 {
-    width: 72%;
+    width: 50%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -132,7 +130,7 @@ p {
     width: 95%;
   }
   .col-md-11 {
-    width: 91.66%;
+    width: 92.66%;
   }
   .col-md-12 {
     width: 100%;
@@ -142,7 +140,6 @@ p {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 3px solid black;
   }
   .col-sm-1 {
     width: 8.33%;
@@ -179,5 +176,6 @@ p {
   }
   .col-sm-12 {
     width: 100%;
+    margin: 5px;
   }
 }
