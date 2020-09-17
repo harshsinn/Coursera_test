@@ -1,4 +1,8 @@
 
+.*{
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -7,7 +11,7 @@ body {
 }
 
 h1 {
-  margin: 50px 50px!important;
+  padding-top: 20px;
   text-align: center;
   font-weight: 700 !important;
 }
@@ -18,13 +22,14 @@ h4 {
   font-weight: 600 !important;
 }
 p {
-  padding-bottom: 10px;
   font-size: 1em;
 }
 
 
 .sec {
-  background-color: #909090;
+  background-color: #C0C0C0;
+  margin: 10px;
+}
 
 .nav-bar {
   background color: gray;
@@ -33,11 +38,8 @@ p {
 .nav-item{
   padding: 0 15px;
 }
-.nav-link{
-  font-size: 1.2rem;
+.nav-link:hover {
+    /* font-size: 1.2rem; */
+    background-color: #8d93ab;
+    width: 100%;
 
-}
-.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
-    background-color: #3344ff;
-    color:#ffffff;
-  }
