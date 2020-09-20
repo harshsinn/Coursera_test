@@ -39,7 +39,6 @@ p {
   padding: 0 15px;
 }
 .nav-link:hover {
-    /* font-size: 1.2rem; */
     background-color: #8d93ab;
     width: 100%;
-
+}
